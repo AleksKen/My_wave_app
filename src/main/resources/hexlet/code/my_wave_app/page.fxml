@@ -10,7 +10,7 @@
          <Image url="@../../../images/free-icon-disc-2131828.png" />
       </ImageView>
       <Button layoutX="316.0" layoutY="52.0" mnemonicParsing="false" onMouseClicked="#handleNextClick" prefHeight="46.0" prefWidth="51.0" styleClass="next-button" stylesheets="@../../../style.css" />
-      <Button layoutX="412.0" layoutY="48.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="58.0" styleClass="favourites-button" stylesheets="@../../../style.css" />
-      <Button layoutX="211.0" layoutY="46.0" mnemonicParsing="false" onMouseClicked="#handlePlayClick" prefHeight="59.0" prefWidth="58.0" styleClass="pause-button" stylesheets="@../../../style.css" />
+      <Button fx:id="favouritesButton" layoutX="412.0" layoutY="48.0" mnemonicParsing="false" onAction="#handleFavouritesClick" prefHeight="59.0" prefWidth="58.0" styleClass="favourites-button" stylesheets="@../../../style.css" />
+      <Button fx:id="playButton" layoutX="211.0" layoutY="46.0" mnemonicParsing="false" onAction="#handlePlayClick" onMouseClicked="#handlePlayClick" prefHeight="59.0" prefWidth="58.0" styleClass="pause-button" stylesheets="@../../../style.css" />
    </children>
 </AnchorPane>

@@ -6,7 +6,7 @@
     -fx-background-position: center;
 }
 
-.pause-button:pressed {
+.pause-button.pressed {
     -fx-background-image: url("images/free-icon-stop-13906172.png");
 }
 
@@ -24,6 +24,10 @@
     -fx-background-size: cover;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
+}
+
+.favourites-button.pressed {
+    -fx-background-image: url("images/free-icon-heart-2924831.png");
 }
 
 .accordion {

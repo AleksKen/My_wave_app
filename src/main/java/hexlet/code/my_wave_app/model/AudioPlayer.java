@@ -2,11 +2,11 @@ package hexlet.code.my_wave_app.model;
 
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.advanced.AdvancedPlayer;
+import lombok.Getter;
 
+import java.io.BufferedInputStream;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -17,8 +17,13 @@ public class AudioPlayer {
     private boolean isPlaying;
     private Thread playThread;
     private List<Track> tracks;
-    int currentTrackIndex;
-    Favourites favourites;
+    private int currentTrackIndex;
+    @Getter
+    private Track currentTrack;
+    private Favourites favourites;
+    private static final Object playSignal = new Object();
+    private boolean isPaused;
+
 
     private AudioPlayer() {
         this.isPlaying = false;
@@ -26,6 +31,8 @@ public class AudioPlayer {
         this.currentTrackIndex = -1;
         this.favourites = new Favourites();
     }
+
+
 
     public static synchronized AudioPlayer getInstance() {
         if (instance == null) {
@@ -39,39 +46,15 @@ public class AudioPlayer {
         this.currentTrackIndex = 0;
     }
 
-
     public void playNextTrack() {
         if (isPlaying) {
-            stop();
+            stopTrack();
         }
         isPlaying = true;
         Random random = new Random();
         currentTrackIndex = random.nextInt(tracks.size());
-        Track currentTrack = tracks.get(currentTrackIndex);
+        currentTrack = tracks.get(currentTrackIndex);  // Установка текущего трека
         playTrack(currentTrack);
-    }
-
-
-
-    private void playTrack(Track track) {
-        if (playThread != null && playThread.isAlive()) {
-            stop();
-        }
-        playThread = new Thread(() -> {
-            try (InputStream is = new FileInputStream(track.getFile())) {
-                player = new AdvancedPlayer(is);
-                player.play();
-            } catch (FileNotFoundException e) {
-                System.out.println("Файл не найден: " + e.getMessage());
-            } catch (JavaLayerException e) {
-                System.out.println("Ошибка воспроизведения: " + e.getMessage());
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            } finally {
-                isPlaying = false;
-            }
-        });
-        playThread.start();
     }
 
     public void playAll() {
@@ -81,21 +64,52 @@ public class AudioPlayer {
     }
 
 
-
-    public void stop() {
-        if (playThread != null && playThread.isAlive()) {
-            isPlaying = false;
-            playThread.interrupt();
+    public void stopTrack() {
+        if (player != null) {
             player.close();
+            player = null;
+            isPlaying = false;
         }
+    }
+
+    private void playTrack(Track track) {
+        if (track == null) return;
+        currentTrack = track;  // Установка текущего трека
+        try {
+            FileInputStream fileInputStream = new FileInputStream(track.getFile());
+            BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
+            player = new AdvancedPlayer(bufferedInputStream);
+            startMusicThread();
+        } catch (JavaLayerException | IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void startMusicThread() {
+        playThread = new Thread(() -> {
+            try {
+                if (isPaused) {
+                    synchronized (playSignal) {
+                        playSignal.wait();  // Ожидание возобновления
+                    }
+                    player.play(0, Integer.MAX_VALUE);
+                } else {
+                    player.play();
+                }
+            } catch (JavaLayerException | InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+        playThread.start();
     }
 
     public boolean isPlaying() {
         return isPlaying;
     }
 
-
     public void addToFavourites() {
-        favourites.addOrRemTrack(tracks.get(currentTrackIndex));
+        if (currentTrack != null) {
+            favourites.addOrRemTrack(currentTrack);
+        }
     }
 }
