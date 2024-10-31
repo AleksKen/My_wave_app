@@ -1,0 +1,32 @@
+.pause-button {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-background-image: url("images/free-icon-music-13432744.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.pause-button:pressed {
+    -fx-background-image: url("images/free-icon-stop-13906172.png");
+}
+
+.next-button {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-background-image: url("images/free-icon-arrow-13906201.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.favourites-button {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-background-image: url("images/free-icon-favorites-7516107.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.accordion {
+    -fx-background-color: black;
+}
+

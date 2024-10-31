@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="121.0" prefWidth="512.0" styleClass="accordion" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hexlet.code.my_wave_app.AudioPlayerUI">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="155.0" layoutX="-5.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../../../images/free-icon-disc-2131828.png"/>
+      </ImageView>
+      <Button layoutX="316.0" layoutY="52.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="51.0" styleClass="next-button" stylesheets="@../../../style.css" />
+      <Button layoutX="412.0" layoutY="48.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="58.0" styleClass="favourites-button" stylesheets="@../../../style.css" />
+      <Button layoutX="211.0" layoutY="46.0" mnemonicParsing="false" onMouseClicked="#handlePlayClick" prefHeight="59.0" prefWidth="58.0" styleClass="pause-button" stylesheets="@../../../style.css" />
+   </children>
+</AnchorPane>
