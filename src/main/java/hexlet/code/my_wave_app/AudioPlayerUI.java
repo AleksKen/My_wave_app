@@ -13,9 +13,11 @@ public class AudioPlayerUI {
         if (!audioPlayer.isPlaying()) {
             audioPlayer.playAll();
         }
-        else {
-            audioPlayer.stop();
-        }
+    }
+
+    @FXML
+    private void handleNextClick() {
+        audioPlayer.playNextTrack();
     }
 
 }

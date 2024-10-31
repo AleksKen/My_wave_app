@@ -13,7 +13,7 @@ public class DataInitializer {
         try (var statement = connection.createStatement()) {
             statement.execute(sql);
             String csvFilePath = "/Users/mariakonasova/My_wave_app/src/main/resources/filtered_file.csv";
-            //statement.execute("INSERT INTO tracks (title, artist, cluster) SELECT title, artist, cluster FROM CSVREAD('" + csvFilePath + "');");
+            statement.execute("INSERT INTO tracks (title, artist, cluster, file) SELECT title, artist, cluster, file FROM CSVREAD('" + csvFilePath + "');");
         }
     }
 }

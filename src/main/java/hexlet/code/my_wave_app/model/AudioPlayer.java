@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Random;
 
 public class AudioPlayer {
+    private static AudioPlayer instance;
     private AdvancedPlayer player;
     private boolean isPlaying;
     private Thread playThread;
@@ -19,11 +20,18 @@ public class AudioPlayer {
     int currentTrackIndex;
     Favourites favourites;
 
-    public AudioPlayer() {
+    private AudioPlayer() {
         this.isPlaying = false;
         this.tracks = new ArrayList<>();
         this.currentTrackIndex = -1;
         this.favourites = new Favourites();
+    }
+
+    public static synchronized AudioPlayer getInstance() {
+        if (instance == null) {
+            instance = new AudioPlayer();
+        }
+        return instance;
     }
 
     public void loadTracks(List<Track> tracks) {
@@ -31,26 +39,24 @@ public class AudioPlayer {
         this.currentTrackIndex = 0;
     }
 
-    public void playAll() {
-        if (tracks.isEmpty()) {
-            System.out.println("Нет загруженных треков!");
-            return;
+
+    public void playNextTrack() {
+        if (isPlaying) {
+            stop();
         }
         isPlaying = true;
-
-        playNextTrack();
-    }
-
-    private void playNextTrack() {
         Random random = new Random();
         currentTrackIndex = random.nextInt(tracks.size());
         Track currentTrack = tracks.get(currentTrackIndex);
         playTrack(currentTrack);
-        currentTrackIndex = random.nextInt(tracks.size());
     }
 
 
+
     private void playTrack(Track track) {
+        if (playThread != null && playThread.isAlive()) {
+            stop();
+        }
         playThread = new Thread(() -> {
             try (InputStream is = new FileInputStream(track.getFile())) {
                 player = new AdvancedPlayer(is);
@@ -63,11 +69,17 @@ public class AudioPlayer {
                 throw new RuntimeException(e);
             } finally {
                 isPlaying = false;
-                playNextTrack();
             }
         });
         playThread.start();
     }
+
+    public void playAll() {
+        if (!isPlaying) {
+            playNextTrack();
+        }
+    }
+
 
 
     public void stop() {

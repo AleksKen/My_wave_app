@@ -19,7 +19,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        audioPlayer = new AudioPlayer();
+        audioPlayer = AudioPlayer.getInstance(); // Получение единственного экземпляра
         List<Track> tracks = loadTracksFromDB();
         audioPlayer.loadTracks(tracks);
 
@@ -36,7 +36,7 @@ public class App extends Application {
 
 
     public static void main(String[] args) {
-        audioPlayer = new AudioPlayer();
+        audioPlayer = AudioPlayer.getInstance(); // Получение единственного экземпляра
         List<Track> tracks = loadTracksFromDB();
         audioPlayer.loadTracks(tracks);
 
