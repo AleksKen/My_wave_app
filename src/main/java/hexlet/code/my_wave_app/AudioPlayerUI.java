@@ -27,17 +27,26 @@ public class AudioPlayerUI {
     private void handleNextClick() {
         if (audioPlayer.isPlaying()) {
             audioPlayer.playNextTrack();
+            System.out.println(audioPlayer.getCurrentTrack().getCluster());
+            System.out.println(audioPlayer.getCurrentTrack().getArtist());
+
+            if (!audioPlayer.getFavourites().contains(audioPlayer.getCurrentTrack())) {
+                favouritesButton.getStyleClass().remove("pressed");
+            }
+            if (audioPlayer.getFavourites().contains(audioPlayer.getCurrentTrack())) {
+                favouritesButton.getStyleClass().add("pressed");
+            }
         }
     }
 
     @FXML
     private void handleFavouritesClick() {
-        if (!audioPlayer.getCurrentTrack().isFavourite()) {
+        if (!audioPlayer.getFavourites().contains(audioPlayer.getCurrentTrack())) {
             audioPlayer.addToFavourites();
             favouritesButton.getStyleClass().add("pressed");
         }
         else  {
-            audioPlayer.addToFavourites();
+            audioPlayer.removeToFavourites();
             favouritesButton.getStyleClass().remove("pressed");
         }
     }

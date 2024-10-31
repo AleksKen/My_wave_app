@@ -1,11 +1,12 @@
-package hexlet.code.my_wave_app.model;
+package hexlet.code.my_wave_app.database;
+
+import hexlet.code.my_wave_app.model.Track;
 
 import java.io.File;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class TrackDAO {
     private final Connection connection;
@@ -14,19 +15,21 @@ public class TrackDAO {
         connection = conn;
     }
 
-    public Optional<Track> find(String title, String artist) throws SQLException {
-        var sql = "SELECT file FROM tracks WHERE title = ? AND artist = ?;";
+    public List<Track> find(String cluster) throws SQLException {
+        var songs = new ArrayList<Track>();
+        var sql = "SELECT * FROM tracks WHERE cluster = ?;";
         try (var stmt = connection.prepareStatement(sql)) {
-            stmt.setString(1, title);
-            stmt.setString(2, artist);
+            stmt.setString(1, cluster);
             var resultSet = stmt.executeQuery();
-            if (resultSet.next()) {
+            while (resultSet.next()) {
+                var title = resultSet.getString("title");
+                var artist = resultSet.getString("artist");
                 File file = new File(resultSet.getString("file"));
-                var track = new Track(title, artist, file);
-                return Optional.of(track);
+                var track = new Track(title, artist, file, cluster);
+                songs.add(track);
             }
-            return Optional.empty();
         }
+        return songs;
     }
 
     public List<Track> getAll() throws SQLException {
@@ -38,7 +41,8 @@ public class TrackDAO {
                 var title = resultSet.getString("title");
                 var artist = resultSet.getString("artist");
                 File file = new File(resultSet.getString("file"));
-                var track = new Track(title, artist, file);
+                var cluster = resultSet.getString("cluster");
+                var track = new Track(title, artist, file, cluster);
                 songs.add(track);
             }
         }

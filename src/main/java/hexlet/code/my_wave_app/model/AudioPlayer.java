@@ -1,5 +1,6 @@
 package hexlet.code.my_wave_app.model;
 
+import hexlet.code.my_wave_app.database.LoadingFromDAO;
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.advanced.AdvancedPlayer;
 import lombok.Getter;
@@ -20,7 +21,8 @@ public class AudioPlayer {
     private int currentTrackIndex;
     @Getter
     private Track currentTrack;
-    private Favourites favourites;
+    @Getter
+    List<Track> favourites;
     private static final Object playSignal = new Object();
     private boolean isPaused;
 
@@ -29,9 +31,8 @@ public class AudioPlayer {
         this.isPlaying = false;
         this.tracks = new ArrayList<>();
         this.currentTrackIndex = -1;
-        this.favourites = new Favourites();
+        this.favourites = new ArrayList<>();
     }
-
 
 
     public static synchronized AudioPlayer getInstance() {
@@ -109,7 +110,15 @@ public class AudioPlayer {
 
     public void addToFavourites() {
         if (currentTrack != null) {
-            favourites.addOrRemTrack(currentTrack);
+            favourites.add(currentTrack);
+            var tracks = LoadingFromDAO.loadTracksFavor(currentTrack.getCluster());
+            loadTracks(tracks);
+        }
+    }
+
+    public void removeToFavourites() {
+        if (currentTrack != null) {
+            favourites.remove(currentTrack);
         }
     }
 }

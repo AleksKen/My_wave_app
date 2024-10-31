@@ -1,5 +1,6 @@
 package hexlet.code.my_wave_app.model;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -7,21 +8,18 @@ import java.io.File;
 
 @Getter
 @Setter
+@EqualsAndHashCode
 public class Track {
     private String title;
     private String artist;
-    private boolean isFavourite;
     private File file;
+    private String cluster;
 
-    public Track(String title, String artist, File file) {
+    public Track(String title, String artist, File file, String cluster) {
         this.title = title;
         this.artist = artist;
-        this.isFavourite = false;
         this.file = file;
-    }
-
-    public boolean isFavourite() {
-        return isFavourite;
+        this.cluster = cluster;
     }
 
 }
