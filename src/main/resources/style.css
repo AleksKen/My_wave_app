@@ -30,6 +30,11 @@
     -fx-background-position: center;
 }
 
+.next-button:pressed {
+    -fx-background-image: url("images/free-icon-next-4472696.png");
+}
+
+
 .favourites-button {
     -fx-background-color: rgba(0, 0, 0, 0);
     -fx-background-image: url("images/free-icon-favorites-7516107.png");
