@@ -1,3 +1,15 @@
+.return-button {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-background-image: url("images/free-icon-disc-2131828.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.return-button:pressed {
+    -fx-background-image: url("images/disc.png");
+}
+
 .pause-button {
     -fx-background-color: rgba(0, 0, 0, 0);
     -fx-background-image: url("images/free-icon-music-13432744.png");
@@ -28,6 +40,19 @@
 
 .favourites-button.pressed {
     -fx-background-image: url("images/free-icon-heart-2924831.png");
+}
+
+.progress {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+}
+
+.progress .track {
+    -fx-background-color: transparent;
+}
+
+.progress-bar .bar {
+    -fx-background-color: linear-gradient(to right, #FF1493, #0000CD);
 }
 
 .accordion {

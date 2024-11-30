@@ -1,50 +1,148 @@
 Title,Artist,Cluster,File
-Sunrise,Norah Jones,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Sunrise-Norah_Jones.mp3
-Black Night,Deep Purple,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Black_Night-Deep_Purple.mp3
+Sunrise,Norah Jones,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Sunrise-Norah_Jones.mp3
+Black Night,Deep Purple,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Black_Night-Deep_Purple.mp3
 Clint Eastwood,Gorillaz,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Clint_Eastwood-Gorillaz.mp3
 The Pretender,Foo Fighters,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Pretender-Foo_Fighters.mp3
-Waitin' On A Sunny Day,Bruce Springsteen,Кластер 7,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Waitin_On_A_Sunny_Day-Bruce_Springsteen.mp3
-The Road Ahead (Miles Of The Unknown),City To City,Кластер 5,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Road_Ahead_Miles_Of_The_Unknown-City_To_City.mp3
-She Will Be Loved,Maroon 5,Кластер 5,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/She_Will_Be_Loved-Maroon_5.mp3
+Waitin' On A Sunny Day,Bruce Springsteen,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Waitin_On_A_Sunny_Day-Bruce_Springsteen.mp3
+The Road Ahead (Miles Of The Unknown),City To City,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Road_Ahead_Miles_Of_The_Unknown-City_To_City.mp3
+She Will Be Loved,Maroon 5,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/She_Will_Be_Loved-Maroon_5.mp3
 Knights of Cydonia,Muse,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Knights_Of_Cydonia-Muse.mp3
 Mr. Brightside,The Killers,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Mr_Brightside-The_Killers.mp3
-Without Me,Eminem,Кластер 5,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Without_Me-Eminem.mp3
-Love Me Tender,Elvis Presley,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Love_Me_Tender-Elvis_Presley.mp3
-Seven Nation Army,The White Stripes,Кластер 9,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Seven_Nation_Army-The_White_Stripes.mp3
-Als Het Golft,De Dijk,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Als_het_golft-De_Dijk.mp3
-I'm going home,Ten Years After,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Im_Going_Home-Ten_Years_After.mp3
-Fluorescent Adolescent,Arctic Monkeys,Кластер 7,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Fluorescent_Adolescent-Arctic_Monkeys.mp3
-Zonder Jou,Paul de Leeuw,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Zonder_jou-Paul_de_Leeuw_&_Simone_Kleinsma.mp3
-Speed of Sound,Coldplay,Кластер 9,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Speed_Of_Sound-Coldplay.mp3
-Uninvited,Alanis Morissette,Кластер 9,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Uninvited-Alanis_Morissette.mp3
-Music,John Miles,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Music-John_Miles.mp3
+Without Me,Eminem,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Without_Me-Eminem.mp3
+Love Me Tender,Elvis Presley,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Love_Me_Tender-Elvis_Presley.mp3
+Seven Nation Army,The White Stripes,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Seven_Nation_Army-The_White_Stripes.mp3
+Als Het Golft,De Dijk,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Als_het_golft-De_Dijk.mp3
+I'm going home,Ten Years After,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Im_Going_Home-Ten_Years_After.mp3
+Fluorescent Adolescent,Arctic Monkeys,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Fluorescent_Adolescent-Arctic_Monkeys.mp3
+Zonder Jou,Paul de Leeuw,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Zonder_jou-Paul_de_Leeuw_&_Simone_Kleinsma.mp3
+Speed of Sound,Coldplay,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Speed_Of_Sound-Coldplay.mp3
+Uninvited,Alanis Morissette,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Uninvited-Alanis_Morissette.mp3
+Music,John Miles,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Music-John_Miles.mp3
 Cry Me a River,Justin Timberlake,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Cry_Me_a_River-Justin_Timberlake.mp3
-Fix You,Coldplay,Кластер 9,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Fix_You-Coldplay.mp3
-The Cave,Mumford & Sons,Кластер 9,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Cave-Mumford_Sons.mp3
-Als De Morgen Is Gekomen,Jan Smit,Кластер 7,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Als_De_Morgen_is_Gekomen-Jan_Smit.mp3
-Somebody Told Me,The Killers,Кластер 9,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Somebody_Told_Me-The_Killers.mp3
-Dichterbij Dan Ooit,BLØF,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Dichterbij_Dan_Ooit-blof.mp3
-Miracle,Ilse DeLange,Кластер 6,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Miracle-Ilse_DeLange.mp3
-Smokers Outside the Hospital Doors,Editors,Кластер 5,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Smokers_Outside_the_Hospital_Doors-Editors.mp3
-Cleanin' Out My Closet,Eminem,Кластер 9,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Cleanin_Out_My_Closet-Eminem.mp3
-Der Weg,Herbert Grönemeyer,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Der_Weg-Herbert_Grnemeyer.mp3
-7 Seconds (feat. Neneh Cherry),Youssou N'Dour,Кластер 6,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/7_Seconds-Youssou_NDour.mp3
-The Scientist,Coldplay,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Scientist-Coldplay.mp3
-Big Log - 2006 Remaster,Robert Plant,Кластер 6,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Big_Log_2006_Remaster_2006_Remaster-Robert_Plant.mp3
-Chasing Pavements,Adele,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Chasing_Pavements-Adele.mp3
-Don't Know Why,Norah Jones,Кластер 8,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Dont_Know_Why-Norah_Jones.mp3
-Tears Dry On Their Own,Amy Winehouse,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Tears_Dry_On_Their_Own-Amy_Winehouse.mp3
-The Eyes of Jenny,Sandy Coast,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Eyes_of_Jenny-Sandy_Coast.mp3
-Iris,The Goo Goo Dolls,Кластер 9,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Iris-The_Goo_Goo_Dolls.mp3
+Fix You,Coldplay,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Fix_You-Coldplay.mp3
+The Cave,Mumford & Sons,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Cave-Mumford_Sons.mp3
+Als De Morgen Is Gekomen,Jan Smit,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Als_De_Morgen_is_Gekomen-Jan_Smit.mp3
+Somebody Told Me,The Killers,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Somebody_Told_Me-The_Killers.mp3
+Dichterbij Dan Ooit,BLØF,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Dichterbij_Dan_Ooit-blof.mp3
+Miracle,Ilse DeLange,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Miracle-Ilse_DeLange.mp3
+Smokers Outside the Hospital Doors,Editors,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Smokers_Outside_the_Hospital_Doors-Editors.mp3
+Cleanin' Out My Closet,Eminem,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Cleanin_Out_My_Closet-Eminem.mp3
+Der Weg,Herbert Grönemeyer,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Der_Weg-Herbert_Grnemeyer.mp3
+7 Seconds (feat. Neneh Cherry),Youssou N'Dour,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/7_Seconds-Youssou_NDour.mp3
+The Scientist,Coldplay,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Scientist-Coldplay.mp3
+Big Log - 2006 Remaster,Robert Plant,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Big_Log_2006_Remaster_2006_Remaster-Robert_Plant.mp3
+Chasing Pavements,Adele,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Chasing_Pavements-Adele.mp3
+Don't Know Why,Norah Jones,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Dont_Know_Why-Norah_Jones.mp3
+Tears Dry On Their Own,Amy Winehouse,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Tears_Dry_On_Their_Own-Amy_Winehouse.mp3
+The Eyes of Jenny,Sandy Coast,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Eyes_of_Jenny-Sandy_Coast.mp3
+Iris,The Goo Goo Dolls,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Iris-The_Goo_Goo_Dolls.mp3
 The Saints Are Coming,U2,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Saints_Are_Coming-U2_Green_Day.mp3
-All My Life,Foo Fighters,Кластер 6,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/All_My_Life-Foo_Fighters.mp3
-De Weg,Guus Meeuwis,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/De_Weg-Guus_Meeuwis.mp3
-Don't Let Me Be Misunderstood,Santa Esmeralda,Кластер 5,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Dont_Let_Me_Be_Misunderstood-Santa_Esmeralda.mp3
-Traffic - Radio Edit,Tiësto,Кластер 9,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Traffic-Tisto.mp3
-Take Me Out,Franz Ferdinand,Кластер 5,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Take_Me_Out-Franz_Ferdinand.mp3
-American Idiot,Green Day,Кластер 6,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/American_Idiot-Green_Day.mp3
-Breaking the Habit,Linkin Park,Кластер 5,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Breaking_The_Habit-Linkin_Park.mp3
+All My Life,Foo Fighters,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/All_My_Life-Foo_Fighters.mp3
+De Weg,Guus Meeuwis,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/De_Weg-Guus_Meeuwis.mp3
+Don't Let Me Be Misunderstood,Santa Esmeralda,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Dont_Let_Me_Be_Misunderstood-Santa_Esmeralda.mp3
+Traffic - Radio Edit,Tiësto,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Traffic-Tisto.mp3
+Take Me Out,Franz Ferdinand,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Take_Me_Out-Franz_Ferdinand.mp3
+American Idiot,Green Day,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/American_Idiot-Green_Day.mp3
+Breaking the Habit,Linkin Park,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Breaking_The_Habit-Linkin_Park.mp3
 Come Undone,Robbie Williams,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Come_Undone-Robbie_Williams.mp3
-Run,Snow Patrol,Кластер 5,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Run-Snow_Patrol.mp3
-"You're The First, The Last, My Everything",Barry White,Кластер 5,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Youre_the_First_the_Last_My_Everything-Barry_White.mp3
-The Day After Tomorrow,Saybia,Кластер 7,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Day_After_Tomorrow-Saybia.mp3
+Run,Snow Patrol,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Run-Snow_Patrol.mp3
+"You're The First, The Last, My Everything",Barry White,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Youre_the_First_the_Last_My_Everything-Barry_White.mp3
+The Day After Tomorrow,Saybia,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Day_After_Tomorrow-Saybia.mp3
+Just Breathe,Pearl Jam,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Just_Breathe-Pearl_Jam.mp3
+Dansen Aan Zee,BLØF,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Dansen_Aan_Zee-BLF.mp3
+Goodbye My Lover,James Blunt,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Goodbye_My_Lover-James_Blunt.mp3
+The Unforgiven III,Metallica,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Unforgiven_III-Metallica.mp3
+Hurt,Christina Aguilera,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Hurt-Christina_Aguilera.mp3
+Sometimes You Can't Make It On Your Own,U2,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Sometimes_You_Cant_Make_It_On_Your_Own-U2.mp3
+"Listen (From the Motion Picture ""Dreamgirls"")",Beyoncé,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Listen_From_the_Motion_Picture_Dreamgirls-Beyonc.mp3
+I Want It That Way,Backstreet Boys,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/I_Want_It_That_Way-Backstreet_Boys.mp3
+Goin To The Run,Golden Earring,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Going_To_The_Run-Golden_Earring.mp3
+De Neus Umhoeg,Rowwen Hèze,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/De_neus_umhoeg-Rowwen_Heze.mp3
+Solitary Man,Johnny Cash,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Solitary_Man-Johnny_Cash.mp3
+Smoorverliefd,Doe Maar,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/smoorverliefd-doe_maa.mp3
+Me Gustas Tu,Manu Chao,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Me_gustas_tu-Manu_Chao.mp3
+Kryptonite,3 Doors Down,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Kryptonite-3_Doors_Down.mp3
+Crazy,Seal,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Crazy-Seal.mp3
+Family Portrait,P!nk,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Family_Portrait-Pnk.mp3
+In The Army Now,Status Quo,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/In_The_Army_Now-Status_Quo.mp3
+I Surrender,Saybia,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/I_Surrender-Saybia.mp3
+Maybe Tomorrow,Stereophonics,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Maybe_Tomorrow-stereophonics.mp3
+Make You Feel My Love,Adele,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Make_You_Feel_My_Love-Adele.mp3
+No One Knows,Queens of the Stone Age,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/No_One_Knows-Queens_Of_The_Stone_Age.mp3
+Where Do You Go To (My Lovely) - Re-Recorded,Peter Sarstedt,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Where_Do_You_Go_To_My_Lovely-Peter_Sarstedt.mp3
+The Wild Rover,The Dubliners,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/The_Wild_Rover-The_Dubliners.mp3
+Little Lion Man,Mumford & Sons,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Little_Lion_Man-Mumford_Sons.mp3
+Dirty Diana,Michael Jackson,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Dirty_Diana-Michael_Jackson.mp3
+Ne me quitte pas,Jacques Brel,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Ne_me_quitte_pas-Jacques_Brel.mp3
+Sad Man's Tongue,Volbeat,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Sad_Mans_Tongue-Volbeat.mp3
+Wat Zou Je Doen - Live,Marco Borsato,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Wat_Zou_Je_Doen_Nooit_Meer_Een_Morgen-Marco_Borsato_Ali_B.mp3
+One Day Like This,Elbow,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Only_Time-Enya.mp3
+Bagagedrager,Spinvis,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Bagagedrager-Spinvis.mp3
+Wêr Bisto,Twarres,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/W_r_Bisto-Twarres.mp3
+Only Time,Enya,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Only_Time-Enya.mp3
+Sorry Seems To Be The Hardest Word,Blue,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Sorry_Seems_To_Be_The_Hardest_Word-Elton_John_Blue.mp3
+Self Esteem,The Offspring,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Self_Esteem-The_Offspring.mp3
+Aanzoek Zonder Ringen,BLØF,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/aanzoek_zonder_ringen-blof.mp3
+Modern World,Anouk,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Modern_World-Anouk.mp3
+Rosie,Claw Boys Claw,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Rosie-Claw_Boys_Claw.mp3
+This Is Not America - 2002 Remaster,David Bowie,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/This_Is_Not_America-David_Bowie.mp3
+Times Like These,Foo Fighters,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Times_Like_These-Foo_Fighters.mp3
+De Vondeling Van Ameland,Boudewijn de Groot,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/De_Vondeling_Van_Ameland-Boudewijn_De_Groot.mp3
+I'm Gonna Be (500 Miles),The Proclaimers,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Im_Gonna_Be_500_Miles-The_Proclaimers.mp3
+Afscheid Nemen Bestaat Niet,Marco Borsato,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Afscheid_Nemen_Bestaat_Niet-Marco_Borsato.mp3
+Blauwe Ruis,BLØF,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Blauwe_Ruis-Bløf.mp3
+Limburg - Live,Rowwen Hèze,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Limburg-Rowwen_H_ze.mp3
+21 Guns,Green Day,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/21_Guns-Green_Day.mp3
+Valerie (feat. Amy Winehouse) - Version Revisited,Mark Ronson,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Valerie-Mark_Ronson.mp3
+Binnen,Marco Borsato,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Binnen-Marco_Borsato.mp3
+Motorcycle Emptiness,Manic Street Preachers,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Motorcycle_Emptiness-Manic_Street_Preachers.mp3
+In the End,Linkin Park,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/In_The_End-Linkin_Park.mp3
+Halt mich,Herbert Grönemeyer,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/halt_mich-herbert_gronemeyer.mp3
+Girl,Anouk,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Girl-Anouk.mp3
+"Trapped - Live at Meadowlands Arena, E. Rutherford, NJ - August 1984",Bruce Springsteen,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Trapped_Live_at_Meadowlands_Arena_E_Rutherford_NJ_August_1984-Bruce_Springsteen.mp3
+Ik Wou Dat Ik Jou Was,Veldhuis & Kemper,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Ik_Wou_Dat_Ik_Jou_Was-Veldhuis_Kemper.mp3
+Empire State of Mind (Part II) Broken Down,Alicia Keys,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Empire_State_of_Mind_Part_II_Broken_Down-Alicia_Keys.mp3
+Numb / Encore,JAY-Z,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/NumbEncore-Jay_Z.mp3
+Ben Ik Te Min,Armand,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/ben_ik_te_min-armand.mp3
+All Summer Long,Kid Rock,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/All_Summer_Long-Kid_Rock.mp3
+Forever Autumn,Jeff Wayne,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Forever_Autumn_Jeff_Wayne_Justin_Hayward-The_Moody_Blues.mp3
+Waiting On the World to Change,John Mayer,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Waiting_On_the_World_to_Change-John_Mayer.mp3
+Everybody's Changing,Keane,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Everybodys_Changing-Keane.mp3
+How to Save a Life,The Fray,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/How_To_Save_A_Life-The_Fray.mp3
+"Bloed, Zweet En Tranen",Andre Hazes,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Bloed_Zweet_En_Tranen-Andr_Hazes.mp3
+"Lose Yourself - From ""8 Mile"" Soundtrack",Eminem,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Lose_Yourself_OST_8_Mile-Eminem.mp3
+Europa (Earth's Cry Heaven's Smile),Santana,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Europa_Earths_Cry_Heavens_Smile-Santana.mp3
+Feeling Good,Muse,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Feeling_Good-Muse.mp3
+"Harder, Better, Faster, Stronger",Daft Punk,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Harder_Better_Faster_Stronger-Daft_Punk.mp3
+Use Somebody,Kings of Leon,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Use_Somebody-Kings_of_Leon.mp3
+Sweet Disposition,The Temper Trap,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Sweet_Disposition-The_Temper_Trap.mp3
+Single Ladies (Put a Ring on It),Beyoncé,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Single_Ladies_Put_a_Ring_on_It-Beyonc.mp3
+You're the Voice,John Farnham,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Youre_the_Voice-John_Farnham.mp3
+Voltooid Verleden Tijd,IOS,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Voltooid_Verleden_Tijd-Is_Ook_Schitterend!.mp3
+Eternal Flame,The Bangles,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Eternal_Flame-The_Bangles.mp3
+Papa Was A Rolling Stone,The Temptations,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Papa_Was_a_Rolling_Stone-The_Temptations.mp3
+Crazy In Love (feat. Jay-Z),Beyoncé,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Crazy_In_Love-Beyonc.mp3
+Best of You,Foo Fighters,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Best_of_You-Foo_Fighters.mp3
+Daughters,John Mayer,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Daughters-John_Mayer.mp3
+De wedstrijd,Bram Vermeulen,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/De_Wedstrijd-Bram_Vermeulen.mp3
+Papillon,Editors,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Papillon-Editors.mp3
+Sadeness,Enigma,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Sadeness-Enigma.mp3
+Red Mij Niet - Single Edit,Maarten Van Roozendaal,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Red_Mij_Niet-Maarten_Van_Roozendaal_Egon_Kracht.mp3
+Love Is A Losing Game,Amy Winehouse,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Love_Is_A_Losing_Game-Amy_Winehouse.mp3
+Zij,Marco Borsato,Кластер 4,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Zij-Marco_Borsato.mp3
+Tribute,Tenacious D,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Tribute-Tenacious_D.mp3
+You Know I'm No Good,Amy Winehouse,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/You_Know_Im_No_Good-Amy_Winehouse.mp3
+Talk,Coldplay,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Talk-Coldplay.mp3
+Love Is A Battlefield,Pat Benatar,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Love_Is_A_Battlefield-Pat_Benatar.mp3
+Home,Michael Bublé,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Home-Michael_Bubl.mp3
+Sonne,Rammstein,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Sonne-Rammstein.mp3
+I Gotta Feeling,The Black Eyed Peas,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/I_gotta_feeling-The_Black_Eyed_Peas.mp3
+She Sells Sanctuary,The Cult,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/She_Sells_Sanctuary-The_Cult.mp3
+Alie,Normaal,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/alie-normaal.mp3
+Red Red Wine,UB40,Кластер 0,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Red_Red_Wine-UB40.mp3
+A Little Less Conversation - JXL Radio Edit Remix,Elvis Presley,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/A_Little_Less_Conversation_JXL_Radio_Edit_Remix_JXL_Radio_Edit_Remix-Elvis_Presley_JXL.mp3
+Love You More,Racoon,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Love_You_More-Armin_Van_Buuren_feat_Racoon.mp3
+Old Man,Neil Young,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Old_Man-Neil_Young.mp3
+Zij Maakt Het Verschil,De Poema's,Кластер 2,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Zij_Maakt_Het_Verschil-De_Poemas.mp3
+I Want To Hold Your Hand - Remastered 2015,The Beatles,Кластер 3,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/1_CD_2015_Remastered_04_I_Want_To_Hold_Your_Hand-The_Beatles.mp3
+Black Magic Woman,Santana,Кластер 1,/Users/mariakonasova/My_wave_app/src/main/resources/ClusteredLibrary/Black_Magic_Woman-Santana.mp3

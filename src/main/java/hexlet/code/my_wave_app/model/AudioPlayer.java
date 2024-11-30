@@ -1,5 +1,6 @@
 package hexlet.code.my_wave_app.model;
 
+import hexlet.code.my_wave_app.AudioPlayerUI;
 import hexlet.code.my_wave_app.database.LoadingFromDAO;
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.advanced.AdvancedPlayer;
@@ -25,6 +26,7 @@ public class AudioPlayer {
     List<Track> favourites;
     private static final Object playSignal = new Object();
     private boolean isPaused;
+    public static int TOTAL_TRACKS_COUNT = 100;
 
 
     private AudioPlayer() {
@@ -52,9 +54,19 @@ public class AudioPlayer {
             stopTrack();
         }
         isPlaying = true;
-        Random random = new Random();
-        currentTrackIndex = random.nextInt(tracks.size());
-        currentTrack = tracks.get(currentTrackIndex);  // Установка текущего трека
+        if (tracks.size() < TOTAL_TRACKS_COUNT) {
+            currentTrackIndex++;
+            if (currentTrackIndex >= tracks.size()) {
+                var tracks = LoadingFromDAO.loadTracksFromDB();
+                loadTracks(tracks);
+            }
+        }
+        else {
+            Random random = new Random();
+            currentTrackIndex = random.nextInt(tracks.size());
+        }
+        currentTrack = tracks.get(currentTrackIndex);
+        AudioPlayerUI.setGradientColors(Utils.getColorsByCluster(currentTrack));
         playTrack(currentTrack);
     }
 
@@ -111,8 +123,16 @@ public class AudioPlayer {
     public void addToFavourites() {
         if (currentTrack != null) {
             favourites.add(currentTrack);
-            var tracks = LoadingFromDAO.loadTracksFavor(currentTrack.getCluster());
-            loadTracks(tracks);
+            if (tracks.size() > TOTAL_TRACKS_COUNT) {
+                var tracks = LoadingFromDAO.loadTracksFavor(currentTrack.getCluster());
+                if (Utils.getNearCluster(currentTrack.getCluster()) != null) {
+                    tracks.addAll(LoadingFromDAO.loadTracksFavor(Utils.getNearCluster(currentTrack.getCluster())));
+                }
+                for (var track : favourites) {
+                    tracks.remove(track);
+                }
+                loadTracks(tracks);
+            }
         }
     }
 
@@ -120,5 +140,11 @@ public class AudioPlayer {
         if (currentTrack != null) {
             favourites.remove(currentTrack);
         }
+    }
+
+    public void returnToWave() {
+        var tracks = LoadingFromDAO.loadTracksFromDB();
+        loadTracks(tracks);
+        playNextTrack();
     }
 }
